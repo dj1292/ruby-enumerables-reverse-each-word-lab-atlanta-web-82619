@@ -3,7 +3,6 @@ def reverse_each_word(string)
   ele = newArr[1..-1]
   new_arr = []
  newArr.each do |string|
-   new_arr.unshift
    new_arr << newArr
  end
    return new_arr
